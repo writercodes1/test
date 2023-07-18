@@ -14,7 +14,7 @@ String phone=ss.next();
 System.out.println("Enter your email");
 String email=ss.next();
 
-String password="@"+name.substring(0,2)+add.substring(0,2)+email.substring(0,2);
+String password="@"+name.substring(0,2)+add.substring(0,2)+email.substring(0,2)+phone.substring(0,2);
 System.out.println("your passwords is- "+password);
 
 }
